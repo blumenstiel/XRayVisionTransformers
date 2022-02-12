@@ -1,0 +1,8 @@
+MODEL:
+    NAME: 'vit_base_r50_s16_384'
+    DIR: 'results/vit_base_r50'
+    INPUT_SIZE: 384
+    MEAN: [0.5, 0.5, 0.5]
+    STD: [0.5, 0.5, 0.5]
+DATASET:
+    NAME: 'MURA'

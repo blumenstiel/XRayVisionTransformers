@@ -1,0 +1,12 @@
+,val loss,val acc,val auroc,test loss,test acc,test auroc,Model,Optimizer,Learning Rate,Scheduler,Warmup steps,Decay rate,Gradient clipping,Gradient accumulation,Regularization,Augmentation,SAM,Non-linear head,Epochs,acc
+vit_base,0.377867,83.89,90.99,0.388357,84.34,89.12,vit_base_patch16_384,Adam,0.0003,CosineAnnealingLR,0,0.8,0.0,1,0.0,light,False,False,30,83.89 / 84.34
+efficientnet_m,0.381926,84.66,91.57,0.436903,82.35,88.34,tf_efficientnetv2_m_in21ft1k,Adam,0.0005,CosineAnnealingLR,0,0.8,0.0,1,0.0,light,False,False,30,84.66 / 82.35
+deit_base,0.39676,83.06,89.78,0.393171,84.12,89.01,deit_base_patch16_384,Adam,0.0003,CosineAnnealingLR,0,0.8,0.0,1,0.0,light,False,False,10,83.06 / 84.12
+vit_small,0.376114,84.49,90.72,0.38792,83.82,89.07,vit_small_patch16_384,Adam,0.0003,CosineAnnealingLR,0,0.8,0.0,1,0.0,light,False,False,30,84.49 / 83.82
+vit_base_r50,0.354183,85.15,92.21,0.39991,84.12,89.52,vit_base_r50_s16_384,Adam,0.0003,CosineAnnealingLR,0,0.8,0.0,1,0.0,light,False,False,30,85.15 / 84.12
+resnet_50x1,0.356669,86.74,91.68,0.403773,83.6,89.55,resnetv2_50x1_bitm,Adam,0.0005,CosineAnnealingLR,0,0.8,0.0,1,0.0,light,False,False,30,86.74 / 83.6
+vit_base_224,0.396541,83.83,89.94,0.419797,83.75,88.57,vit_base_patch16_224,Adam,0.0003,CosineAnnealingLR,0,0.8,0.0,1,0.0,light,False,False,30,83.83 / 83.75
+vit_large,0.378761,84.64,91.0,0.392792,84.32,89.37,vit_large_patch16_384,Adam,0.0003,CosineAnnealingLR,0,0.8,0.0,1,0.0,light,False,False,30,84.64 / 84.32
+vit_base_patch32,0.407115,82.38,89.0,0.422733,82.43,87.41,vit_base_patch32_384,Adam,0.0003,CosineAnnealingLR,0,0.8,0.0,1,0.0,light,False,False,30,82.38 / 82.43
+swin_base,0.38321,83.74,90.74,0.38785,84.12,89.12,swin_base_patch4_window12_384,Adam,0.0003,CosineAnnealingLR,0,0.8,0.0,1,0.0,light,False,False,30,83.74 / 84.12
+resnet_152x2,0.360313,86.4,91.37,0.38242,84.02,89.93,resnetv2_152x2_bitm,Adam,0.0005,CosineAnnealingLR,0,0.8,0.0,1,0.0,light,False,False,30,86.4 / 84.02

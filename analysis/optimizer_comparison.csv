@@ -1,0 +1,13 @@
+,val loss,val acc,val auroc,test loss,test acc,test auroc,Model,Optimizer,Learning Rate,Scheduler,Warmup steps,Decay rate,Gradient clipping,Gradient accumulation,Regularization,Augmentation,SAM,Non-linear head,Epochs,acc
+vit_small_adamW_lr-3e-4_wd_-2,0.381951,83.83,90.77,0.388841,83.97,88.89,vit_small_patch16_384,AdamW,0.0003,CosineAnnealingLR,0,0.8,0.0,1,0.0,none,False,False,30,83.83 / 83.97
+vit_small_adam_lr-5e-4,0.382038,83.9,90.84,0.407646,83.97,88.89,vit_small_patch16_384,Adam,0.0005,CosineAnnealingLR,0,0.8,0.0,1,0.0,none,False,False,30,83.9 / 83.97
+vit_small_adam_lr-3e-4,0.381363,83.91,90.81,0.388346,84.41,88.95,vit_small_patch16_384,Adam,0.0003,CosineAnnealingLR,0,0.8,0.0,1,0.0,none,False,False,30,83.91 / 84.41
+resnet_50x1_adamW_lr-3e-4_wd_-2,0.371653,84.9,91.53,0.406104,82.79,88.97,resnetv2_50x1_bitm,AdamW,0.0003,CosineAnnealingLR,0,0.8,0.0,1,0.0,none,False,False,30,84.9 / 82.79
+resnet_50x1_adam_lr-5e-4,0.384104,85.24,91.02,0.444413,82.87,88.19,resnetv2_50x1_bitm,Adam,0.0005,CosineAnnealingLR,0,0.8,0.0,1,0.0,none,False,False,30,85.24 / 82.87
+resnet_50x1_adam_lr-5e-5,0.392947,83.72,90.57,0.395741,82.43,89.1,resnetv2_50x1_bitm,Adam,5e-05,CosineAnnealingLR,0,0.8,0.0,1,0.0,none,False,False,30,83.72 / 82.43
+resnet_50x1_adam_lr-3e-4,0.374406,84.65,91.46,0.3997,82.87,89.33,resnetv2_50x1_bitm,Adam,0.0003,CosineAnnealingLR,0,0.8,0.0,1,0.0,none,False,False,30,84.65 / 82.87
+vit_small_adamP_lr-3e-4,0.381022,83.74,90.81,0.391397,83.97,88.77,vit_small_patch16_384,AdamP,0.0003,CosineAnnealingLR,0,0.8,0.0,1,0.0,none,False,False,30,83.74 / 83.97
+vit_small_adam_lr-5e-5,0.385104,83.22,90.43,0.403771,83.38,88.28,vit_small_patch16_384,Adam,5e-05,CosineAnnealingLR,0,0.8,0.0,1,0.0,none,False,False,30,83.22 / 83.38
+vit_small_SGD_lr-3e-4,0.457365,78.47,86.46,0.451269,79.63,85.26,vit_small_patch16_384,SGD,0.0003,CosineAnnealingLR,0,0.8,0.0,1,0.0,none,False,False,30,78.47 / 79.63
+resnet_50x1_SGD_lr-3e-4,0.423076,81.48,88.68,0.414725,81.84,87.62,resnetv2_50x1_bitm,SGD,0.0003,CosineAnnealingLR,0,0.8,0.0,1,0.0,none,False,False,30,81.48 / 81.84
+resnet_50x1_adamP_lr-3e-4,0.372829,85.15,91.52,0.402094,82.87,89.16,resnetv2_50x1_bitm,AdamP,0.0003,CosineAnnealingLR,0,0.8,0.0,1,0.0,none,False,False,30,85.15 / 82.87

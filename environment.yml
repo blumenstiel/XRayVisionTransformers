@@ -1,0 +1,32 @@
+# run: conda update conda
+# run: conda update --all
+# run: conda env create --file environment.yml
+# run: conda activate Xray
+
+name: Xray
+channels:
+  - default
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.8
+  - cudatoolkit=11.3  # commented out on CPU machines
+  - cudnn  # commented out on CPU machines
+  - numpy
+  - pandas
+  - pillow
+  - pytorch
+  - torchvision
+  - timm
+  - pyyaml
+  - tensorboard
+  - setuptools=58.0.4
+  - jupyter
+  - matplotlib
+  - pathlib
+  - tqdm
+  - yacs
+  - pip
+  - pip:
+      - -e .
+      - torchnet

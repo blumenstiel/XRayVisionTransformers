@@ -1,0 +1,10 @@
+MODEL:
+    NAME: 'tf_efficientnetv2_m_in21ft1k'
+    DIR: 'results/efficientnetv2_m'
+    INPUT_SIZE: 480
+    MEAN: [0.485, 0.456, 0.406]
+    STD: [0.229, 0.224, 0.225]
+DATASET:
+    NAME: 'MURA'
+TRAIN:
+    LEARNING_RATE: 5e-4

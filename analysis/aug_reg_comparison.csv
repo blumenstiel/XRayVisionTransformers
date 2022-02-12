@@ -1,0 +1,13 @@
+,val loss,val acc,val auroc,test loss,test acc,test auroc,Model,Optimizer,Learning Rate,Scheduler,Warmup steps,Decay rate,Gradient clipping,Gradient accumulation,Regularization,Augmentation,SAM,Non-linear head,Epochs,acc
+resnet_50x1_regularization_00_ra_medium,0.356669,86.74,91.68,0.403773,83.6,89.55,resnetv2_50x1_bitm,Adam,0.0005,CosineAnnealingLR,0,0.8,0.0,1,0.0,medium,False,False,30,86.74 / 83.6
+vit_small_regularization_01_ra_none,0.558966,76.98,85.95,0.541552,77.13,83.32,vit_small_patch16_384,Adam,0.0003,CosineAnnealingLR,0,0.8,0.0,1,0.1,none,False,False,30,76.98 / 77.13
+vit_small_regularization_00_ra_none,0.381363,83.91,90.81,0.388346,84.41,88.95,vit_small_patch16_384,Adam,0.0003,CosineAnnealingLR,0,0.8,0.0,1,0.0,none,False,False,30,83.91 / 84.41
+resnet_50x1_regularization_01_ra_medium,0.365413,85.72,91.88,0.408837,84.12,89.37,resnetv2_50x1_bitm,Adam,0.0005,CosineAnnealingLR,0,0.8,0.0,1,0.1,medium,False,False,30,85.72 / 84.12
+vit_small_regularization_00_ra_light,0.376114,84.49,90.72,0.38792,83.82,89.07,vit_small_patch16_384,Adam,0.0003,CosineAnnealingLR,0,0.8,0.0,1,0.0,light,False,False,30,84.49 / 83.82
+resnet_50x1_regularization_00_ra_none,0.384104,85.24,91.02,0.444413,82.87,88.19,resnetv2_50x1_bitm,Adam,0.0005,CosineAnnealingLR,0,0.8,0.0,1,0.0,none,False,False,30,85.24 / 82.87
+resnet_50x1_regularization_00_ra_light,0.356669,86.74,91.68,0.403773,83.6,89.55,resnetv2_50x1_bitm,Adam,0.0005,CosineAnnealingLR,0,0.8,0.0,1,0.0,light,False,False,30,86.74 / 83.6
+resnet_50x1_regularization_01_ra_none,0.373818,85.16,90.96,0.384684,84.19,89.41,resnetv2_50x1_bitm,Adam,0.0005,CosineAnnealingLR,0,0.8,0.0,1,0.1,none,False,False,30,85.16 / 84.19
+vit_small_regularization_01_ra_medium,0.586344,76.23,86.21,0.574199,77.94,82.89,vit_small_patch16_384,Adam,0.0003,CosineAnnealingLR,0,0.8,0.0,1,0.1,medium,False,False,30,76.23 / 77.94
+vit_small_regularization_01_ra_light,0.586344,76.23,86.21,0.574199,77.94,82.89,vit_small_patch16_384,Adam,0.0003,CosineAnnealingLR,0,0.8,0.0,1,0.1,light,False,False,30,76.23 / 77.94
+vit_small_regularization_00_ra_medium,0.376114,84.49,90.72,0.38792,83.82,89.07,vit_small_patch16_384,Adam,0.0003,CosineAnnealingLR,0,0.8,0.0,1,0.0,medium,False,False,30,84.49 / 83.82
+resnet_50x1_regularization_01_ra_light,0.365413,85.72,91.88,0.408837,84.12,89.37,resnetv2_50x1_bitm,Adam,0.0005,CosineAnnealingLR,0,0.8,0.0,1,0.1,light,False,False,30,85.72 / 84.12
